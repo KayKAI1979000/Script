@@ -1,0 +1,168 @@
+
+
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local Madcity = Instance.new("TextButton")
+local Jailbreak = Instance.new("TextButton")
+local YBA = Instance.new("TextButton")
+local Hdadmin = Instance.new("TextButton")
+local Shindolife = Instance.new("TextButton")
+local Madebywannabe = Instance.new("TextLabel")
+
+--Properties:
+
+ScreenGui.Parent = game.CoreGui
+
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(44, 58, 255)
+Frame.Position = UDim2.new(0.596545339, 0, 0.292024493, 0)
+Frame.Size = UDim2.new(0, 256, 0, 374)
+Frame.Active = true
+Frame.Draggable = true
+
+Madcity.Name = "Mad city"
+Madcity.Parent = Frame
+Madcity.BackgroundColor3 = Color3.fromRGB(66, 66, 66)
+Madcity.Position = UDim2.new(0.109375, 0, 0.173796803, 0)
+Madcity.Size = UDim2.new(0, 200, 0, 50)
+Madcity.Font = Enum.Font.SourceSans
+Madcity.Text = "Mad city"
+Madcity.TextColor3 = Color3.fromRGB(0, 0, 0)
+Madcity.TextSize = 14.000
+Madcity.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://gist.githubusercontent.com/TurkOyuncu99/811e25ec8cfcdaa9ae7026353288783c/raw/4b073a5c1a0a4e2ed7e2304c2e769eb440a371a9/h", true))()
+end)
+
+Jailbreak.Name = "Jailbreak"
+Jailbreak.Parent = Frame
+Jailbreak.BackgroundColor3 = Color3.fromRGB(68, 68, 68)
+Jailbreak.Position = UDim2.new(0.109375, 0, 0.323529422, 0)
+Jailbreak.Size = UDim2.new(0, 200, 0, 50)
+Jailbreak.Font = Enum.Font.SourceSans
+Jailbreak.Text = "Jailbreak"
+Jailbreak.TextColor3 = Color3.fromRGB(0, 0, 0)
+Jailbreak.TextSize = 14.000
+Jailbreak.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/wawsdasdacx/ohascriptnrrewading/main/jbsaxcriptidk1"))();
+end)
+
+YBA.Name = "YBA"
+YBA.Parent = Frame
+YBA.BackgroundColor3 = Color3.fromRGB(68, 68, 68)
+YBA.Position = UDim2.new(0.10546875, 0, 0.481283426, 0)
+YBA.Size = UDim2.new(0, 200, 0, 50)
+YBA.Font = Enum.Font.SourceSans
+YBA.Text = "YBA"
+YBA.TextColor3 = Color3.fromRGB(0, 0, 0)
+YBA.TextSize = 14.000
+YBA.MouseButton1Down:connect(function()
+	getgenv().Key = "HelloEpicGUI"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/SupBabe/YBAHOPPER/main/YBAv2.lua"))()
+end)
+
+Hdadmin.Name = "Hd admin"
+Hdadmin.Parent = Frame
+Hdadmin.BackgroundColor3 = Color3.fromRGB(36, 36, 36)
+Hdadmin.Position = UDim2.new(0.109375, 0, 0.636363626, 0)
+Hdadmin.Size = UDim2.new(0, 200, 0, 50)
+Hdadmin.Font = Enum.Font.SourceSans
+Hdadmin.Text = "Hd admin"
+Hdadmin.TextColor3 = Color3.fromRGB(0, 0, 0)
+Hdadmin.TextSize = 14.000
+Hdadmin.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
+end)
+
+Shindolife.Name = "Shindo life"
+Shindolife.Parent = Frame
+Shindolife.BackgroundColor3 = Color3.fromRGB(62, 62, 62)
+Shindolife.Position = UDim2.new(0.109375, 0, 0.802139044, 0)
+Shindolife.Size = UDim2.new(0, 200, 0, 50)
+Shindolife.Font = Enum.Font.SourceSans
+Shindolife.Text = "Shindo life"
+Shindolife.TextColor3 = Color3.fromRGB(0, 0, 0)
+Shindolife.TextSize = 14.000
+Shindolife.MouseButton1Down:connect(function()
+	local ScreenGui = Instance.new("ScreenGui")
+local main = Instance.new("Frame")
+local shindolife = Instance.new("TextLabel")
+local Snowhub = Instance.new("TextButton")
+local spyhub = Instance.new("TextButton")
+local skyhub = Instance.new("TextButton")
+local close = Instance.new("TextButton")
+ 
+--Properties:
+ 
+ScreenGui.Parent = game.CoreGui
+ 
+main.Name = "main"
+main.Parent = ScreenGui
+main.Active = true
+main.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+main.Position = UDim2.new(0.714828849, 0, 0.443339974, 0)
+main.Size = UDim2.new(0, 193, 0, 251)
+main.Active = true
+main.Visible = true
+ 
+shindolife.Name = "shindolife"
+shindolife.Parent = main
+shindolife.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+shindolife.Size = UDim2.new(0, 193, 0, 50)
+shindolife.Font = Enum.Font.SourceSans
+shindolife.Text = "shindo life"
+shindolife.TextColor3 = Color3.fromRGB(0, 0, 0)
+shindolife.TextSize = 14.000
+ 
+Snowhub.Name = "Snow hub"
+Snowhub.Parent = main
+Snowhub.BackgroundColor3 = Color3.fromRGB(106, 106, 106)
+Snowhub.Position = UDim2.new(0, 0, 0.199203193, 0)
+Snowhub.Size = UDim2.new(0, 193, 0, 50)
+Snowhub.Font = Enum.Font.SourceSans
+Snowhub.Text = "SNOW HUB"
+Snowhub.TextColor3 = Color3.fromRGB(0, 0, 0)
+Snowhub.TextSize = 14.000
+Snowhub.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://snowhub.dev/script.lua", true))()
+end)
+ 
+spyhub.Name = "spy hub"
+spyhub.Parent = main
+spyhub.BackgroundColor3 = Color3.fromRGB(107, 107, 107)
+spyhub.Position = UDim2.new(0, 0, 0.398406386, 0)
+spyhub.Size = UDim2.new(0, 193, 0, 50)
+spyhub.Font = Enum.Font.SourceSans
+spyhub.Text = "Spy hub"
+spyhub.TextColor3 = Color3.fromRGB(0, 0, 0)
+spyhub.TextSize = 14.000
+spyhub.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/6Wumpus6/SpyHub/main/ShindoLife", true))()
+end)
+ 
+skyhub.Name = "sky hub"
+skyhub.Parent = main
+skyhub.BackgroundColor3 = Color3.fromRGB(112, 112, 112)
+skyhub.Position = UDim2.new(0, 0, 0.59760958, 0)
+skyhub.Size = UDim2.new(0, 193, 0, 101)
+skyhub.Font = Enum.Font.SourceSans
+skyhub.Text = "sky hub"
+skyhub.TextColor3 = Color3.fromRGB(0, 0, 0)
+skyhub.TextSize = 14.000
+skyhub.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/reavscripts/sl2_autofarm/main/main.lua", true))()
+end)
+ 
+close.Name = "close"
+close.Parent = main
+close.BackgroundColor3 = Color3.fromRGB(179, 8, 25)
+close.Position = UDim2.new(0.839378238, 0, 0, 0)
+close.Size = UDim2.new(0, 31, 0, 23)
+close.Font = Enum.Font.SourceSans
+close.Text = "X"
+close.TextColor3 = Color3.fromRGB(0, 0, 0)
+close.TextSize = 14.000
+close.MouseButtoniClick:Connect(function()
+	main.Visible = true
+	open.Visible = true
+end)
+end)
